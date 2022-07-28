@@ -1,0 +1,23 @@
+{
+    "name": "aleja/app-salon_php_mvc_js_sass",
+    "description": "Proyecto MVC con PHP app salon",
+    "type": "project",
+    "autoload":{
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alejandro Santillan",
+            "email": "alejandro_santillan_2000@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
